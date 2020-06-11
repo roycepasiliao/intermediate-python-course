@@ -8,7 +8,7 @@ def main():
    dice_sum += roll
    if roll == 1:
      print(f'You rolled a {roll}! Critical Fail')
-    elif roll == 6:
+   elif roll == 6:
      print(f'You rolled a {roll}! Critical Success!')
    else:
       print(f'You rolled a {roll}')
